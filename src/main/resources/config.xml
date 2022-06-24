@@ -1,0 +1,56 @@
+<config>
+    <source>
+        <jira-url></jira-url>
+        <jira-username></jira-username>
+        <jira-password></jira-password>
+        <project-key>IO</project-key>
+        <board-id>1141</board-id>
+    </source>
+    <target>
+        <jira-url></jira-url>
+        <jira-username></jira-username>
+        <jira-password></jira-password>
+        <project-key>OTFM</project-key>
+        <board-id>1271</board-id>
+    </target>
+    <users-mapping>
+        <user source="" target=""/>
+    </users-mapping>
+    <status-mapping>
+        <status source="To Do" target="To Do"/>
+        <status source="Done" target="Done"/>
+        <status source="Cancelled" target="Cancelled"/>
+        <status source="Ready for testing" target="Ready for testing"/>
+        <status source="Testing" target="Testing"/>
+        <status source="In Technical Review" target="In Technical Review"/>
+        <status source="In BA Review" target="In BA Review"/>
+        <status source="Testing is On Hold" target="Testing is On Hold"/>
+        <status source="IQVIA Questions" target="IQVIA Questions"/>
+        <status source="Ready for Grooming" target="Ready for Grooming"/>
+        <status source="Ready for Development" target="Ready for Development"/>
+        <status source="Ready for Demo" target="Ready for Demo"/>
+        <status source="Dev Blocked" target="Dev Blocked"/>
+        <status source="In Progress" target="In Progress"/>
+        <status source="Ready for Code Review &#38; Deploy" target="Ready for Code Review &#38; Deploy"/>
+        <status source="Ready for Prod" target="Ready for Prod"/>
+        <status source="Ready for Acceptance" target="Ready for Acceptance"/>
+    </status-mapping>
+    <sprint-mapping>
+        <sprint source="Core Sprint 1 Team 1" target="Core Sprint 1 Team 1"/>
+        <sprint source="Core Sprint 1 Team 3" target="Core Sprint 1 Team 3"/>
+        <sprint source="Core Sprint 2 Team 1" target="Core Sprint 2 Team 1"/>
+        <sprint source="Core Sprint 2 Team 2" target="Core Sprint 2 Team 2"/>
+        <sprint source="Core Sprint 2 Team 3" target="Core Sprint 2 Team 3"/>
+        <sprint source="Core Sprint 3 Team 1" target="Core Sprint 3 Team 1"/>
+        <sprint source="Core Sprint 3 Team 2" target="Core Sprint 3 Team 2"/>
+        <sprint source="Core Sprint 3 Team 3" target="Core Sprint 3 Team 3"/>
+        <sprint source="Core Sprint 4 Team 1" target="Core Sprint 4 Team 1"/>
+        <sprint source="Core Sprint 4 Team 2" target="Core Sprint 4 Team 2"/>
+        <sprint source="Core Sprint 4 Team 3" target="Core Sprint 4 Team 3"/>
+        <sprint source="Core Sprint 5 Team 1" target="Core Sprint 5 Team 1"/>
+        <sprint source="Core Sprint 5 Team 2" target="Core Sprint 5 Team 2"/>
+        <sprint source="Core Sprint 5 Team 3" target="Core Sprint 5 Team 3"/>
+        <sprint source="Core Sprint 6 Team 1" target="Core Sprint 6 Team 1"/>
+        <sprint source="Core Sprint 6 Team 2" target="Core Sprint 6 Team 2"/>
+    </sprint-mapping>
+</config>
